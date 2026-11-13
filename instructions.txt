@@ -1,0 +1,26 @@
+Requisito: Python 3.10 de 64 bits.
+
+Windows
+py -3.10 -m venv maquina
+maquina\Scripts\activate
+
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+python app.py
+
+Abra http://127.0.0.1:5000/
+
+
+macOS/Linux
+python3.10 -m venv maquina
+source maquina/bin/activate
+
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+python app.py
+
+Abra http://127.0.0.1:5000/
+
+Observacao: no macOS, a instalacao do TensorFlow pode depender da versao e arquitetura do computador. A combinacao acima e voltada principalmente ao Windows com Python 3.10 de 64 bits.
